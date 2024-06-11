@@ -1,42 +1,22 @@
+# WinWay-University-Website
+A fully featured University Management System having a well designed Database Schema made as a Web Development project.
 
-To get Contact, Registration, Subscribe and Login details of the University, you should click the Login button and,
-Enter,  Username = admin
-	Password = pass
+This repository contains the source code for a University Management System, designed to streamline the process of university funtions for any student/users. The system allows users to view courses, view results, and logins, contact and give inquiries, administrator login, lecturer login, add/delete/update results, etc. It is built using HTML, CSS, JS PHP and MySQL Database.
 
+## ADMIN LOGIN 
+**Username :** user
+Password : pass
 
-And you should create these 3 tables and database.(We used - MYSQL : WAMPP SERVER)
+# Technologies Used:
 
-/*==================================*/
-CREATE DATABASE University;
-USE University;
+- **For Frontend:** HTML, CSS, BootStrap, JavaScript
+- **For Backend:** PHP
+- **For Database:** MySQL
 
-
-
-/*====================================
-        SUBSCRIBE TABLE
-====================================*/
-CREATE TABLE subscribe(
-email	VARCHAR(50)	PRIMARY KEY
-);
+Pre-requisites:
+- VS Code
 
 
-/*====================================
-        REGISTRATION TABLE
-====================================*/
-CREATE TABLE registration(
-name	VARCHAR(50),
-email	VARCHAR(50)	PRIMARY KEY,
-phone	VARCHAR(10)
-);
+# Gallery
 
-
-/*====================================
-        CONTACT TABLE
-====================================*/
-CREATE TABLE contact(
-name	VARCHAR(50),
-id	VARCHAR(13)	PRIMARY KEY,
-email	VARCHAR(50),
-message	VARCHAR(1000)
-);
-
+![Winway](https://user-images.githubusercontent.com/89802304/223206220-080c1bed-52ae-44d0-88bd-c9ba5f564b2c.jpg)
