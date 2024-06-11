@@ -19,4 +19,4 @@ Pre-requisites:
 
 # Gallery
 
-![Winway](https://user-images.githubusercontent.com/89802304/223206220-080c1bed-52ae-44d0-88bd-c9ba5f564b2c.jpg)
+![EduMax](img/web3.jpg)
